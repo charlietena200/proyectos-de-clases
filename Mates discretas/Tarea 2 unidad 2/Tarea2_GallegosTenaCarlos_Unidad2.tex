@@ -1,0 +1,34 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=2cm,top=2cm,right=2cm,bottom=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+
+\newcommand{\mN}{{\mathbb N}}
+\newcommand{\mZ}{{\mathbb Z}}
+\newcommand{\cZ}{{\mathcal Z}}
+\newcommand{\fL}{{\mathfrak L}}
+\newcommand{\dst}{\displaystyle}
+
+%opening
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+Carlos Gallegos\\\\
+Unidad 2 Tarea 2\\\\
+ii) (a$\star$b)$\bigoplus(b\star c) = (a\bigoplus b) \star (a\bigoplus c) = b$\\\\
+Para (a$\star$b) sabemos que es a, porque a se relaciona con a y b; y a su vez se cumple que $a\leq b$. Entonces a es la máxima cota superior entre a y b. Para $(b\star c)$ tenemos que b es la máxima cota inferior, porque b se relaciona con b y c; y a su vez se cumple que $b\leq c$. Sustituyendo:\\\\
+\centerline{(a$\star$b)$\bigoplus(b\star c) = a \bigoplus b = b$}\\\\
+Sabemos que la igualdad nos da b porque es la mínima cota superior entre a y b.\\\\
+Por otro lado , para $(a\bigoplus b)$ sabemos que es igual a b. Y de forma similar, para $(a\bigoplus c)$ sabemos que es igual a c, porque se cumple que c es la mínima cota superior para a y c dado que $a\leq c$. Sustituyendo:\\\\
+\centerline{$(a\bigoplus b) \star (a\bigoplus c) = b \star c$ = b}\\\\
+Podemos decir que nos da b, porque entre b y c, b es la máxima cota inferior.\\\\
+Por transitividad, se prueba que (a$\star$b)$\bigoplus(b\star c) = (a\bigoplus b) \star (a\bigoplus c) = b$.
+
+\end{document}

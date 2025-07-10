@@ -1,0 +1,41 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=2cm,top=2cm,right=2cm,bottom=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\newcommand{\mN}{{\mathbb N}}
+\newcommand{\mZ}{{\mathbb Z}}
+\newcommand{\cZ}{{\mathcal Z}}
+\newcommand{\fL}{{\mathfrak L}}
+\newcommand{\dst}{\displaystyle}
+
+%opening
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+Carlos Alberto Gallegos Tena \\\\
+Primero hacemos la expresión algebráica normal: \\\\
+$(\overline{x} \vee y)   \oplus ((\overline{x \vee y})\wedge(x \odot y)) $\\\\
+Primero hacemos $(\overline{x \vee y})$ en maxtérminos y nos queda  $(x \vee \overline{y})\wedge(\overline{x} \vee y)\wedge(\overline{x} \vee \overline{y})$\\\\
+Ahora ponemos $(x \odot y)$ en maxtérminos y nos queda $(x \vee \overline{y})\wedge(\overline{x} \vee y)$\\\\
+Juntando lo que llevamos nos queda:\\\\
+$(\overline{x} \vee y)   \oplus ((\overline{x \vee y})\wedge(x \odot y))  = (\overline{x} \vee y)   \oplus ((x \vee \overline{y})\wedge(\overline{x} \vee y)\wedge(\overline{x} \vee \overline{y})) \wedge (x \vee \overline{y})\wedge(\overline{x} \vee y))$\\\\
+Ahora para hacer el maxtérmino de $\oplus$, que sabemos que es $(x\vee y )\wedge (\overline{x} \vee \overline{y}) $ hacemos:\\\\
+$((\overline{x} \vee y) \vee ((x \vee \overline{y})\wedge(\overline{x} \vee y)\wedge(\overline{x} \vee \overline{y})) \wedge (x \vee \overline{y})\wedge(\overline{x} \vee y))\wedge(\overline{(\overline{x} \vee y)} \vee \overline{((x \vee \overline{y})\wedge(\overline{x} \vee y)\wedge(\overline{x} \vee \overline{y})) \wedge (x \vee \overline{y})\wedge(\overline{x} \vee y))}$\\\\
+Por lo tanto, en una expresión de maxtérminos sería:\\\\
+$(\overline{x} \vee y)   \oplus ((\overline{x \vee y})\wedge(x \odot y)) $ = \\\\$((\overline{x} \vee y) \vee ((x \vee \overline{y})\wedge(\overline{x} \vee y)\wedge(\overline{x} \vee \overline{y})) \wedge (x \vee \overline{y})\wedge(\overline{x} \vee y))\wedge(\overline{(\overline{x} \vee y)} \vee \overline{((x \vee \overline{y})\wedge(\overline{x} \vee y)\wedge(\overline{x} \vee \overline{y})) \wedge (x \vee \overline{y})\wedge(\overline{x} \vee y))}$\\
+
+
+
+
+
+
+
+
+\end{document}

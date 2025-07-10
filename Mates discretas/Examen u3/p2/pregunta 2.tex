@@ -1,0 +1,36 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=2cm,top=2cm,right=2cm,bottom=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\newcommand{\mN}{{\mathbb N}}
+\newcommand{\mZ}{{\mathbb Z}}
+\newcommand{\cZ}{{\mathcal Z}}
+\newcommand{\fL}{{\mathfrak L}}
+\newcommand{\dst}{\displaystyle}
+
+%opening
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+Carlos Alberto Gallegos Tena \\\\
+Primero veamos que $x \oplus y = (x\vee y) \wedge (\overline{x} \vee \overline{y})$, entonces  $\overline{x \oplus y} = \overline{(x\vee y) \wedge (\overline{x} \vee \overline{y})}$ y por leyes sabemos que \\\\
+$=(\overline{x} \wedge \overline{y}) \vee(x\wedge y) $\\\\
+Podemos distribuir y nos queda $ = (x \vee \overline{y})\wedge (\overline{x} \vee y)$. Y si nos damos cuenta, es la función de maxtérminos de $(x \odot y) = (x \vee \overline{y})\wedge (\overline{x} \vee y)$.\\\\
+Por transitividad : $\overline{x \oplus y} = (x \odot y)$.\\
+
+
+
+
+
+
+
+
+
+\end{document}

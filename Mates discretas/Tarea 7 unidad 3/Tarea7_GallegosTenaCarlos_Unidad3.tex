@@ -1,0 +1,73 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=2cm,top=2cm,right=2cm,bottom=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\newcommand{\mN}{{\mathbb N}}
+\newcommand{\mZ}{{\mathbb Z}}
+\newcommand{\cZ}{{\mathcal Z}}
+\newcommand{\fL}{{\mathfrak L}}
+\newcommand{\dst}{\displaystyle}
+
+%opening
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+Carlos Alberto Gallegos Tena \\\\
+Tarea 7 Mates Discretas\\\\
+Para la demostración vamos a hacer primero los or. Hacemos x v y\\\\
+\begin{tabular}{ c c c c c}
+ x & y & x v y \\ 
+ 0 & 0 & 0 \\  
+ 0 & 1 & 1 \\
+ 1 & 0 & 1 \\
+ 1 & 1 & 1  
+\end{tabular}\\\\
+Ahora vamos con x v not y\\
+\begin{tabular}{ c c c c c}
+ x & y & x v noty \\ 
+ 0 & 0 & 1 \\  
+ 0 & 1 & 0 \\
+ 1 & 0 & 1 \\
+ 1 & 1 & 1  
+\end{tabular}\\\\
+Ahora con not x v y\\
+\begin{tabular}{ c c c c c}
+ x & y & notx v y \\ 
+ 0 & 0 & 1 \\  
+ 0 & 1 & 1 \\
+ 1 & 0 & 0 \\
+ 1 & 1 & 1  
+\end{tabular}\\\\
+Ahora hacemos x and y\\
+\begin{tabular}{ c c c c c}
+x & y & x $\wedge$  y \\ 
+ 0 & 0 & 0 \\  
+ 0 & 1 & 0 \\
+ 1 & 0 & 0 \\
+ 1 & 1 & 1  
+\end{tabular}\\\\
+Como ya sabemos, and toma únicamente 1 cuando ambos términos son unos. Es decir, si son 3 términos, entonces and sólo va a ser uno cuando los 3 sean 1. Y en este caso, de (x v y) $\wedge$ (x v noty) $\wedge$ (notx v noty), sólo vamos a tener un uno en x=1 y=1. La tabla queda:\\\\
+\begin{tabular}{ c c c c c}
+x & y & (x v y) $\wedge$ (x v noty) $\wedge$ (notx v noty)  y \\ 
+ 0 & 0 & 0 \\  
+ 0 & 1 & 0 \\
+ 1 & 0 & 0 \\
+ 1 & 1 & 1  
+\end{tabular}\\\\
+Por transitividad de la igualdad, y porque ambas funciones tienen la misma tabla de verdad, podemos decir que:\\\\
+(x v y) $\wedge$ (x v noty) $\wedge$ (notx v noty) = x $\wedge$.
+
+
+
+
+
+
+
+\end{document}
