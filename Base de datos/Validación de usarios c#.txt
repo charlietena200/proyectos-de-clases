@@ -1,0 +1,17 @@
+Class1 miobj = new Class1();
+            String consultaSQL;
+            consultaSQL = "SELECT IdUsuario FROM Usuarios2454 WHERE (Usuario='" + textBox1.Text + "' AND clave='" + textBox2.Text + "')";
+            int id;
+            id = miobj.ObtieneDato(consultaSQL);
+            if (id > 0)
+            {
+                Form2 ventana = new Form2();
+                ventana.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Acceso denegado", "Validacion de usuarios",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Exclamation);
+            }

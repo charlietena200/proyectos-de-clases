@@ -1,0 +1,163 @@
+0. Crear una base de datos Mascotas y activarla
+1. Crea tabla mascota: nombre, propietario, especie, sexo, nacimiento, fallecimento 
+2. Mostra la estructura de la tabla
+3. Para modificar los atributos de una relación o tabla
+   a) cambiar el sexo por genero
+   b) agregar una clave primaria id_mascota
+   c) elimina campo fecha de fallecimiento
+4. Insertar las siguientes tuplas:
+Fuffy	Pedro	Gato	f	1999-02-04	\N
+Miau	Juan	Gato	m	1998-03-17	\N
+Buffy	Arnoldo	Perro	f	1999-05-13	\N
+FanFan	Benito	Perro	m	2000-08-27	\N
+Kaiser	Diana	Perro	m	1998-08-31	1997-07-29
+Chispa	Omar	Ave	f	1998-09-11	\N
+Wicho	Tomás	Ave	\N	2000-02-09	\N
+Skim	Benito	Serpiente	m	2001-04-29	\N
+
+5. Mostra todos los perros que se encuentren en la tabla
+6. Lista a todos los propietarios cuyo nombre termine con 'o'
+6. Hacer una función que calcule los años de vida de la mascota
+7. Hacer una función que calcule los años de fallecido de la mascota
+
+Código sql workbench
+
+[4:23 p. m., 16/6/2021] +52 55 8037 1315: 0. Crear una base de datos Mascotas y activarla
+1. Crea tabla mascota: nombre, propietario, especie, sexo, nacimiento, fallecimento 
+2. Mostra la estructura de la tabla
+3. Para modificar los atributos de una relación o tabla
+   a) cambiar el sexo por genero
+   b) agregar una clave primaria id_mascota
+   c) elimina campo fecha de fallecimiento
+4. Insertar las siguientes tuplas:
+Fuffy	Pedro	Gato	f	1999-02-04	\N
+Miau	Juan	Gato	m	1998-03-17	\N
+Buffy	Arnoldo	Perro	f	1999-05-13	\N
+FanFan	Benito	Perro	m	2000-08-27	\N
+Kaiser	Diana	Perro	m	1998-08-31	1997-07-29
+Chispa	Omar	Ave	f	1998-09-11	\N
+Wicho	Tomás	Ave	\N	2000-02-09	\N
+Skim	Benito	Serpiente	m	2001-04-29	\N
+
+5. Mostra todos los perros que se encuentren en la tabla
+6. Lista a todos los propietarios cuyo nombre te…
+[4:24 p. m., 16/6/2021] +52 55 8037 1315: Aún no, en breve, daremos tiempo.
+[5:20 p. m., 16/6/2021] +52 55 8037 1315: EJERCIO RESUELTO:
+[5:20 p. m., 16/6/2021] +52 55 8037 1315: -- 0. Crear una base de datos Mascotas y activarla
+
+create database Mascotas;
+use Mascotas;
+
+-- 1. Crea tabla mascota: nombre, propietario, especie, sexo, nacimiento, fallecimento 
+
+create table Mascotita(
+	NombreM varchar(50),
+	Propietario varchar(50),
+	Especie char(10),
+	sexo char(1),
+	Nacimiento date,
+	Fallecimiento date
+)engine=InnoDB;
+
+-- 2. Mostra la estructura de la tabla
+describe Mascotita;
+
+-- 3. Para modificar los atributos de una relación o tabla
+   -- a) cambiar el sexo por genero
+   
+alter table Mascotita change column sexo genero varchar(1);
+describe Mascotita;
+
+
+   -- b) agregar una clave primaria id_mascota
+alter table Mascotita add column id_mascota int primary key  not null;
+describe Mascotita;
+
+   -- c) elimina campo fecha de fallecimiento
+alter table Mascotita drop column fallecimiento;
+describe Mascotita;
+
+    -- d) Agregar el campo fallecimiento;
+    alter table Mascotita add column fallecimiento date; 
+    describe Mascotita;
+
+/*4. Insertar las siguientes tuplas:
+Fuffy	Pedro	Gato	f	1999-02-04	\N
+Miau	Juan	Gato	m	1998-03-17	\N
+Buffy	Arnoldo	Perro	f	1999-05-13	\N
+FanFan	Benito	Perro	m	2000-08-27	\N
+Kaiser	Diana	Perro	m	1998-08-31	1997-07-29
+Chispa	Omar	Ave	f	1998-09-11	\N
+Wicho	Tomás	Ave	\N	2000-02-09	\N
+Skim	Benito	Serpiente	m	2001-04-29	\N
+
+*/
+Insert into Mascotita(id_mascota, NombreM,	Propietario, Especie, genero,
+	Nacimiento, Fallecimiento) values (1, 'Fluffy', 'Pedro', 'Gato', 'F', '1999-02-04',null);
+
+-- Instrucción para borrar el registro de Fluffy:
+Delete from Mascotita where Id_Mascota = 1;
+
+
+Insert into Mascotita(id_mascota, NombreM,	Propietario, Especie, genero,
+	Nacimiento, Fallecimiento) values (2, 'Miau', 'Juan', 'Gato', 'M', '1998-03-17', null);
+
+Insert into Mascotita(id_mascota, NombreM,	Propietario, Especie, genero,
+	Nacimiento, Fallecimiento) values (3, 'Buffly', 'Arnoldo', 'Perro', 'F', '1999-05-13', null);
+
+Insert into Mascotita(id_mascota, NombreM,	Propietario, Especie, genero,
+	Nacimiento, Fallecimiento) values (4, 'FanFan' , 'Benito', 'Perro', 'm', '2000-08-27', null);
+
+insert into Mascotita(id_mascota, NombreM,	Propietario, Especie, genero,
+	Nacimiento, Fallecimiento) values (5, 'Kaiser', 'Diana', 'Perro', 'M', '1998-08-31', '1997-07-29');
+insert into Mascotita(id_mascota, nombreM, propietario, especie, genero, nacimiento, fallecimiento)
+ values(6, 'Chispa','Omar','Ave','f','1998-09-11',null);
+
+Insert into Mascotita values ('Skim', 'Benito', 'Serpiente', 'm', '2001-04-29', 7, null);
+
+insert into Mascotita(id_mascota, nombreM, propietario, especie, genero, nacimiento, fallecimiento)
+ values (8, 'Wicho','Tomás','Ave',null,'2000-02-09',null);
+
+select * from Mascotita;
+
+-- 5. Mostra todos los perros que se encuentren en la tabla
+
+select * from Mascotita where especie  like 'perro';
+
+
+-- 6. Lista a todos los propietarios cuyo nombre termine con 'o'
+
+Select * from Mascotita where Propietario LIKE '%o';
+
+
+-- 7. Hacer una función que calcule los años de vida de la mascota
+DELIMITER //
+drop function if exists AniosTrancurridos//
+Create function AniosTrancurridos(fechaNacimiento date) returns int
+begin
+    Declare anios int;
+    Declare fechaHoy date;
+    set fechaHoy= curdate();
+    set anios= year(fechaHoy)- year(fechaNacimiento) - (if(date_format(fechaHoy,'%m-%d') >= date_format(fechaNacimiento,'%m-%d'),0, 1));
+	return anios;
+end //
+
+DELIMITER ;
+
+Select nombreM, propietario, especie, genero, nacimiento, AniosTrancurridos(nacimiento) as 'edad'
+from Mascotita ;
+ 
+ 
+ 
+-- 8. Hacer una función que calcule los años de fallecido de la mascota
+
+Select nombreM, propietario, especie, genero, nacimiento, AniosTrancurridos(fallecimiento) as 'agnos de fallecimiento'
+from Mascotita;
+ 
+
+-- 9. Crear un índice para el campo propietario
+
+create index idxPropietario
+on Mascotita (propietario);
+
+describe mascotita;

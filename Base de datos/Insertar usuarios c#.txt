@@ -1,0 +1,10 @@
+Class1 miobj = new Class1();
+            String consultaSQL;
+            consultaSQL = "Insert into Usuarios2454 (Usuario, Clave) VALUES ('" + textBox1.Text + "', '" + textBox2.Text + "')";
+            miobj.Ejecutacomando(consultaSQL);
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
+
+            MessageBox.Show("El usuario se agregó exitosamente", "Nuevo usuario",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Exclamation);

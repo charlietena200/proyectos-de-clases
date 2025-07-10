@@ -1,0 +1,1 @@
+Capturar la Base de datos del Caso de Concursos Caninos en Access. Captura Tablas, Interrelacionarlas, Ingresar 5 tuplas en cada relación y realizar 5 consultas. Todo será enviada a geslava@acatlan.unam.mx, con fecha límite domingo 2 de mayo (enviar uno por equipo)

@@ -1,0 +1,6 @@
+Class1 obj = new Class1();
+            String cadenaSql = "delete from usuarios2454 WHERE IdUsuario= " + textBox1.Text;
+            obj.Ejecutacomando(cadenaSql);
+            MessageBox.Show("El usuario se eliminó exitosamente", "Nuevo usuario",
+            MessageBoxButtons.OK,
+            MessageBoxIcon.Exclamation);
