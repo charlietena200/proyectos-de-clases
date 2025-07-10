@@ -1,0 +1,23 @@
+Frecuencias
+
+Li= límite inferior
+Ls= límite superior
+
+Fs= frontera superior (se obtiene con Ls + Li del siguiente / 2)
+Fi= frontera inferior (es el fs del anterior dato)
+c= f2-fi
+
+Mc= marca de clase ( fs+fi/2)
+
+f= frecuencia de los datos
+fa= suma de las frecuencias
+fr= frecuencia relativa (el porcentaje)
+fra= suma de las frecuencias relativas
+
+dj= mc - mc de en medio
+u= dj / el cambio de dj1 y dj2
+fu= f*u
+
+alpha3= coeficiente de simetría
+aplha4= coeficiente de courtosis
+
