@@ -1,0 +1,10 @@
+tarea 
+dibujar k8, k9
+c10, c7
+los grados de los v ertgices
+vertices
+checar teorema del apretón de manos 2 el numero de aristas
+su matriz de adyacencia de la  graficas
+dibujar una grafica  y su complementaria
+dibujar un ciclo y un circuito
+y en cuentren caminos dibujar 4 caminos
