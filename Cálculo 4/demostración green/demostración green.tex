@@ -1,0 +1,41 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=2cm,top=2cm,right=2cm,bottom=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+
+\newcommand{\mN}{{\mathbb N}}
+\newcommand{\mZ}{{\mathbb Z}}
+\newcommand{\cZ}{{\mathcal Z}}
+\newcommand{\fL}{{\mathfrak L}}
+\newcommand{\dst}{\displaystyle}
+
+%opening
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+Carlos Gallegos\\\\
+Demostración\\\\
+Sabemos por el teorema de las integrales de línea que: \\\\
+\centerline{$\oint_C M(x,y) dx = \int_{C1} M(x,y) dx + \int_{C2} M(x,y) dx$}\\\\
+Como sabemos que y está en función de x, y dada por g1 y g2, juntando al integral nos queda:\\\\
+\centerline{$= \int_a^b M(x,g1(x)) - M(x,g2(x)) dx$}\\\\
+Por otro lado, sabemos que:\\\\
+\centerline{$\int\int_R \frac{\partial M}{\partial y} dA = \int_a^b M(x,g2(x)) - M(x,g1(x)) dx$}\\\\
+Por lo tanto, por transitividad, cambiamos los signos y nos queda:\\\\
+\centerline{$\oint_C M(x,y) dx = - \int\int_R \frac{\partial M}{\partial y} dA$}\\\\
+Lo mismo ocurre con $\oint_C N(x,y) dy$. Ahora en lugar de usar g1 y g2, usamos su contradominio, que nombraremos h1 y h2. Como ahora estamos respecto a y, nos queda que $\oint_C N(x,y) dy = \int_a^b N(h2(y),y) - N(h1(y),y) dx$\\\\ 
+Por ello nos queda $\oint_C N(x,y) dy = \int\int_R \frac{\partial N}{\partial x} dA$\\\\
+Al final, simplemente hacemos la suma de integrales y nos queda:\\\\
+\centerline{$\oint_C M(x,y) + N(x,y) dy = - \int\int_R \frac{\partial M}{\partial y} dA + \int\int_R \frac{\partial N}{\partial x} dA$}\\\\
+Simplificando:\\\\
+\centerline{$\int\int_R \frac{\partial N}{\partial x}-\frac{\partial M}{\partial y} dA$}\\\\
+Y por lo tanto, queda demostrado el teorema de Green.
+
+\end{document}

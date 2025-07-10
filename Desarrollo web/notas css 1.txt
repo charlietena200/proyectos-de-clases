@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet"
+type="text/css"
+href="miestilo.css"> 
+  
+  <style>
+    body { background-color: AntiqueWhite; }
+   .centrar { text-align: center; }
+    
+    body { background-image: url(imagenfondo.jgp);
+/*background-image: url(unam.png);
+background-repeat: no-repeat;
+background-position: right top;
+background-attachment: fixed; */ } 
+    div { background-color: lightgrey;
+width: 300px;
+padding: 25px;
+border: 25px solid navy;
+margin: 25px; }
+ 
+    #lgf {
+background-color: lightgrey;
+width: 500px;
+padding: 15px;
+border: 25px solid orange;
+margin: 15px; } 
+ 
+    .miclase {
+background-color: lightgrey;
+width: 500px;
+padding: 5px;
+border: 5px solid orange;
+margin: 5px;
+oultine: 2px solid red; }
+    
+    ul#uno{ list-style-type:none;
+padding:0px;
+border:0px;
+width:90px; }
+    
+   li#unoi a {
+display:block;
+text-align:center;
+padding-top:5px;
+padding-bottom:5px;
+border:1px solid blue; }
+    
+    ul#dos{
+list-style-type: none;
+padding: 0px;
+border:0px;
+width:90px; }
+li#dosi a {
+display:block;
+background-color:#9999ff;
+text-align:center;
+text-decoration:none;
+padding-top:5px;
+padding-bottom:5px; } 
+    
+    
+    li#dosi a:hover
+{ background-color:#cc9900;
+color: white;
+text-align:center;
+text-decoration:none; }
+    
+    
+    
+    li#tresi{
+display:inline;
+float:left; }
+    
+    
+    ul#tres{
+.. margin:20px;
+overflow: hidden;
+.. } 
+    
+    li#tresi a {
+background-color:#9999ff;
+text-align:center;
+text-decoration:none;
+padding:10px;
+float:left; } 
+    
+    
+    ul#cuatro{
+list-style-type: none;
+padding: 10px;
+border:3px solid #afcde3;
+border-radius: 5px;
+margin:20px;
+overflow: hidden;
+background-color:#afcde3;
+max-width:600px;
+font: 15px arial, sans-serif; }
+li#cuatroi{
+display:inline;
+float:left; } 
+    
+    li#cuatroi a {
+background-color:#9999ff; textalign:center;
+text-decoration:none;
+padding:10px;
+float:left;
+border:1px solid #afcde3; borderradius: 5px; }
+li#cuatroi a:hover {
+background-color:#cc9900;
+color: white;
+text-align:center;
+text-decoration:none; }
+    
+    
+    
+    li#sdosi a {
+display:block;
+background-color:#EEEEEE;
+text-align:center;
+text-decoration:none;
+padding-top:5px;
+padding-bottom:5px;
+text-shadow:5px 5px 10px red; } 
+    
+  li#sdosi a:hover {
+background-color:yellow; color: white; textalign:center; text-decoration:none; }  
+    
+    
+    
+</style> <title>Notas CSS</title>
+</head>
+<body >
+<h1 >Mis notas de CSS.</h1>
+  <p class="centrar">CSS, en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.</p> 
+  <pre>
+h1     {color: blue; font-size: 12px;}
+</pre>
+  <p ><b><a href="http://www.w3schools.com/cssref/css_
+selectors.asp. " target="_blank">http://www.w3schools.com/cssref/css_
+selectors.asp. </a></b></p>
+  
+  <div> Modelo de caja:<br>
+Soy una caja, tengo Content, Padding, Border y
+Margin. Mi fondo es lightgrey, mi ancho es 600px, mis
+m&aacute;rgenes de 25px, mi borde de 25px y mi
+padding de 25px.<br>
+Creada con &ltdiv&gt, no tengo id ni class.<br>
+Me aplica la regla de estilo con el selector<br>
+div {...} </div> 
+  <div> Otra caja:<br><br>
+    <a href="https://www.google.com/search?q=caja&sxsrf=APq-WBv261xdER51EPCBnPl6pVnfNkHgvQ:1648258624016&source=lnms&tbm=isch&sa=X&ved=2ahUKEwii56Du0eL2AhUyk2oFHSvVBWwQ_AUoAXoECAMQAw&biw=1600&bih=789&dpr=1 " target="_blank">Click para abrir caja real </a>
+</div> 
+  
+    <div id="lgf">
+Modelo de caja:<br> Yo soy una caja creada
+con &ltdiv <mark>id="lgf"&gt</mark><br>
+Me aplica la regla de estilo con el selector<br>
+<mark>#lgf {...}</mark> </div>
+  
+<div class="miclase">
+Modelo de caja:<br>
+Yo soy una caja creada con &ltdiv
+<mark>class="miclase"&gt</mark><br>
+Me aplica la regla de estilo con el selector<br>
+<mark>.miclase {...}</mark>
+</div>  
+  
+  
+  
+  <ul> <li><a href="index.html">Home</a></li>
+<li><a href="noticias.html">Noticias</a></li>
+<li><a href="contacto.html">Contacto</a></li>
+<li><a href="nosotros.html">Nosotros</a></li> </ul> 
+
+  
+  <ul id="uno"> <li id="unoi"><a
+href="index.html">Home</a></li> <li id="unoi"><a
+href="noticias.html">Noticias</a></li> <li
+id="unoi"><a
+href="contacto.html">Contacto</a></li> <li
+id="unoi"><a
+href="nosotros.html">Nosotros</a></li> </ul>
+  
+  
+  <ul id="dos">
+<li id="dosi"><a href="index.html">Home</a></li>
+<li id="dosi"><a href="noticias.html">Noticias</a></li>
+<li id="dosi"><a href="contacto.html">Contacto</a></li>
+<li id="dosi"><a href="nosotros.html">Nosotros</a></li>
+</ul> 
+  
+  <ul id="tres">
+<li id="tresi"><a href="index.html">Home</a></li>
+<li id="tresi"><a href="noticias.html">Noticias</a></li>
+<li id="tresi"><a href="contacto.html">Contacto</a></li>
+<li id="tresi"><a href="nosotros.html">Nosotros</a></li></ul> 
+  
+  
+  
+  <ul id="cuatro">
+<li id="cuatroi"><a href="index.html">Home</a></li>
+<li id="cuatroi"><a href="index.html">Noticias</a></li>
+<li id="cuatroi"><a href="index.html">Contacto</a></li>
+<li id="cuatroi"><a href="index.html">Nosotros</a></li>
+</ul>
+  
+  
+  <ul id="dos"> <li id="dosi"><a
+href="index.html">Home</a></li> <li id="dosi"><a
+href="index.html">Noticias</a> 
+    
+    
+    <ul id="dos" > <li id="sdosi"><a
+href="index.html">Primera</a></li> <li id="sdosi"><a
+href="index.html">Segunda</a></li> <li id="sdosi"><a
+href="index.html">Tercera</a></li> <li id="sdosi"><a
+href="index.html">Cuarta</a></li> </ul> </li> <li
+id="dosi"><a href="index.html">Contacto</a></li> <li
+id="dosi"><a href="index.html">Nosotros</a></li> </ul>
+  
+</body>
+</html>

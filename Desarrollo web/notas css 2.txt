@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html> <head>
+<style>
+body {
+background-image: url(“pantalla_inicial.png");
+background-repeat: no-repeat;
+background-position: right top;
+margin-right: 200px; }
+</style>
+</head> <body>
+<h1>Proyecto final</h1>
+<p> Descripción del enunciado de negocio</p>
+<p> Este trabajo presenta el siguiente menu:
+a) apuntes de html
+b) apuntes de CSS
+c) Primera version de mi proyecto</p>
+</body>
+</html>

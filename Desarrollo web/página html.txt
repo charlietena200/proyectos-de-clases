@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<p>&nbsp;</p>
+<h1>T&eacute;cnicas para la ense&ntilde;anza de Desarrollo Web y el texto</h1></head>
+<p>Texto.</p>
+<div style="background-color: #ffffff;">&hellip;</div>
+<h1 style="color: #000066;">&nbsp; &bull;<a href="&ldquo;archivo2.pdf&quot;">Archivo2</a> <br />&nbsp; &bull; <a href="http://ascii.cl/es/codigos-html.htm">C&oacute;digos HTML.</a> <br />&nbsp; &bull;<a href="http://www.w3schools.com/tags/">Referencia HTML.</a> <br />&nbsp; &bull;<a href="&ldquo;archivo1pdf&quot;">Archivo 1</a> <br /><img src="unam.jpg" /> <br /><br /><strong> Mi nombre es Carlos Gallegos y estudio MAC </strong> Negritas. <br /><small> </small> <ins> </ins> <del> </del> <mark> </mark></h1>
+<p style="text-align: center;"><a href="
+http://www.w3schools.com/tags/ref_colorpicker.asp"> <img src="colorpicker.png" alt="colorpicker" width="70" height="60" /></a> <em>Selector de colores.</em></p>
+<h1 style="color: #000066;"><br /><br /></h1>
+
+<table>
+<tr> <th>propiedad</th>
+<th>valores</th>
+<th>descripci&oacute;n</th> </tr> 
+<tr>
+<td>Celda 1</td>
+<td>Celda 2</td>
+<td>Celda 3</td>
+</tr>
+<tr>
+<td>Celda 4</td>
+<td>Celda 5</td>
+<td>Celda 6</td>
+</tr>
+<ul>
+<li>triangulo</li>
+<li>circulo</li>
+<li>cuadrado</li>
+<li>none</li>
+</ul>
+<form action="procesando_form.php">
+<fieldset><legend>Catalogo de controles de
+entrada:</legend> 
+... </fieldset> </form> <br><br>
+
+</table>
+  </tbody>
+</body>
+</html> 

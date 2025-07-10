@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<style>
+  body { background-color: lightblue; }
+</style>
+<body>
+
+<script>
+ function validar2() { var valor, text, fondo; valor =
+document.getElementById("numero2").value; if
+(isNaN(valor) || valor < 2 || valor > 10) { text
+= "Lo sab&iacutea!"
+   } else { text =
+"Muy bien!"; }
+ 
+  if
+(isNaN(valor) || valor < 2 || valor > 10) { document.body.style.backgroundColor = "red";
+   } else { document.body.style.backgroundColor = "green"; }
+
+document.getElementById("mensaje2").innerHTML= text; } 
+</script>
+
+<script>
+ function validar() { var valor, text; valor =
+document.getElementById("numero").value; if
+(isNaN(valor) || valor < 1 || valor > 10) { text
+= "No es peque&ntilde;o!"; } else { text =
+"Muy bien!"; }
+document.getElementById("mensaje").innerHTML= text; } 
+</script>
+<script> function colorear() { var
+imagen =
+document.getElementById('escudo'); if
+(imagen.src.match("escudi")) {
+imagen.src = "escudoUNAM.jpg"; }
+else { imagen.src = "escudito.jpg";
+} }</script>
+
+<script
+src="funciones.js"></script>
+<script>
+document.write('<h1>HolaJavaScript.</h1>’);
+
+window.alert("Me encanta que estes en
+el curso.");
+
+</script>
+
+<p id="p1">.</p>
+<script>
+document.getElementById('p1').innerHTML = Date();
+document.getElementById('p1').innerHTML = 'Me gusto CSS';
+
+<button type="button" Onclick =
+"document.getElementById('p1').innerHTML = 'JavaScript tambi&eacute;n.'">OK
+</button>
+
+</script>
+
+<script> function alegrar()
+{ var x = document.getElementById("p1");
+x.style.fontSize = "25px";
+x.style.color = "red"; } </script>
+
+<button type="button"
+onclick="alegrar()">Alegrar.</button>
+
+<img id="escudo" width="100px"
+high="100px" src="escudito.jpg" 
+
+<img id="escudo" width="100px"
+high="100px" src="escudito.jpg"
+onclick="colorear()"> 
+
+<p>Teclea un n&uacute;mero
+peque&ntilde;o:</p> <input type="text"
+id="numero"> 
+
+<button type="button"
+onclick="validar()">validar</button>
+
+<p id="mensaje"></p>
+
+
+
+<p>Teclea tu color favorito (1 rojo ,  2 azul,   3 verde,   4 amarillo):</p> <input type="text"
+id="numero2"> 
+
+<button type="button"
+onclick="validar2()">validar</button>
+
+<p id="mensaje2"></p>
+
+</body>
+</html>
