@@ -1,0 +1,31 @@
+#include<winbgim.h>
+main(){
+	int w[8]={180, 100, 220, 100, 200, 80, 180, 100};
+	int x[8]={180, 90, 220, 90, 200, 110, 180, 90};
+	/*w[0]=150;
+	w[1]=150;
+	w[2]=160;
+	w[3]=160;
+	w[4]=140;
+	w[5]=140;
+	w[6]=120;
+	w[7]=120;
+	w[8]=150;
+	w[9]=150;*/
+	initwindow(300,300);
+	setbkcolor(2);
+	cleardevice();
+	arc(150,150,90,0,80);
+	fillellipse(150,150,80,80);
+	setfillstyle(2,2);
+	setcolor(2);
+	fillellipse(170,130,80,80);
+	setcolor(15);
+	setfillstyle(1,15);
+	drawpoly(4,w);
+	drawpoly(4,x);
+	fillpoly(4,w);
+	fillpoly(4,x);
+	while(!kbhit())delay(1);
+	closegraph();
+}

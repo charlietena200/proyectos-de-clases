@@ -1,0 +1,61 @@
+#include<winbgim.h>
+void dibuja();
+main(int argc, char *argv[]){
+	initwindow(450,500);
+	moveto(150,50);
+	lineto(300,30);
+	setcolor(12);
+	moveto(150,90);
+	lineto(300,100);
+	setcolor(1);
+	moveto(150,70);
+	lineto(300,70);
+	setcolor(3);
+	ellipse(190,180,0,360,20,10);
+	ellipse(215,160,0,360,25,10);
+	setcolor(5);
+	rectangle(80,130,250,200);
+	dibuja();
+	while(!kbhit()) delay(1);
+	return(0);
+}
+void dibuja(){
+	int w[12], x[12];
+	setcolor(14);
+	circle(350,190,50);
+	setcolor(7);
+	circle(120,335,60);
+	circle(120,335,65);
+	circle(120,335,73);
+	circle(123,332,83);
+	circle(120,333,12);
+	w[0]=115;
+	w[1]=275;
+	w[2]=160;
+	w[3]=381;
+	w[4]=66;
+	w[5]=315;
+	w[6]=175;
+	w[7]=315;
+	w[8]=85;
+	w[9]=381;
+	w[10]=115;
+	w[11]=275;
+	x[0]=265;
+	x[1]=275;
+	x[2]=310;
+	x[3]=381;
+	x[4]=216;
+	x[5]=315;
+	x[6]=325;
+	x[7]=315;
+	x[8]=235;
+	x[9]=381;
+	x[10]=265;
+	x[11]=275;
+	setcolor(2);
+	fillpoly(6,w);
+	setcolor(5);
+	drawpoly(6,x);
+	getch();
+}
