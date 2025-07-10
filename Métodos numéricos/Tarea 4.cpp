@@ -1,0 +1,165 @@
+/*Carlos Alberto Gallegos Tena 420090618 Tarea método de bisección*/
+#include<stdio.h>
+#include<math.h>
+
+//#define RAIZ(x)((x*x*x) - (x)-1)
+/*Declaramos las funciones*/
+/*float RAIZ(int xr){
+	float x=((xr)*(xr)*(xr)) - xr - 1;
+	return x;
+}*/
+void uno(float xi, float xu){
+	#define RAIZ(x)((x*x*x) - (x)-1)
+	float  xr, xa, ea;
+int iteraciones;
+
+ 
+iteraciones = 0;
+xa = 0.0;
+ea = 0;
+printf("%12s %10s %10s %10s %10s\n", "Iteraciones", "Xi", "Xo", "Xm", "Error a");
+ 
+do{
+iteraciones++;
+xr = (xi + xu) / 2;
+if(iteraciones >= 2) {
+ea = ((xr - xa) / xr) * 100; 
+}
+ea = fabs(ea); 
+printf("%12d %10f %10f %10f %10f\n", iteraciones, xi, xu, xr, fabs(ea));
+xa = xr;
+if(RAIZ(xr) > 0) {
+xi = xr;
+} else{
+xu = xr;
+}
+ 
+} while(ea > 0.5 || (ea == 0.0 && iteraciones == 1));
+ 
+printf("\nLa raiz es de f(x) = x^3 -x -1; es: %f\n", xr);
+	}
+void dos(float xi, float xu){
+		#define RAIZdos(x)(-2*(x*x*x) - (4*(x*x)) + (4*x) +4)
+	float  xr, xa, ea;
+int iteraciones;
+
+ 
+iteraciones = 0;
+xa = 0.0;
+ea = 0;
+printf("%12s %10s %10s %10s %10s\n", "Iteraciones", "Xi", "Xo", "Xm", "Error a");
+ 
+do{
+iteraciones++;
+xr = (xi + xu) / 2;
+if(iteraciones >= 2) {
+ea = ((xr - xa) / xr) * 100; 
+}
+ea = fabs(ea); 
+printf("%12d %10f %10f %10f %10f\n", iteraciones, xi, xu, xr, fabs(ea));
+xa = xr;
+if(RAIZdos(xr) > 0) {
+xi = xr;
+} else{
+xu = xr;
+}
+ 
+} while(ea > 0.5 || (ea == 0.0 && iteraciones == 1));
+ 
+printf("\nLa raiz es de f(x) = -2x^3 - 4x^2  + 4x  + 4; es: %f\n", xr);
+	}
+void tres(float xi, float xu){
+	#define RAIZtres(x)(x-(2*(1/x)))
+	float  xr, xa, ea;
+int iteraciones;
+
+ 
+iteraciones = 0;
+xa = 0.0;
+ea = 0;
+printf("%12s %10s %10s %10s %10s\n", "Iteraciones", "Xi", "Xo", "Xm", "Error a");
+ 
+do{
+iteraciones++;
+xr = (xi + xu) / 2;
+if(iteraciones >= 2) {
+ea = ((xr - xa) / xr) * 100; 
+}
+ea = fabs(ea); 
+printf("%12d %10f %10f %10f %10f\n", iteraciones, xi, xu, xr, fabs(ea));
+xa = xr;
+if(RAIZtres(xr) > 0) {
+xi = xr;
+} else{
+xu = xr;
+}
+ 
+} while(ea > 0.5 || (ea == 0.0 && iteraciones == 1));
+ 
+printf("\nLa raiz es de f(x) = x-2^-x; es: %f\n", xr);
+}
+void cuatro(float xi, float xu){
+	#define RAIZcuatro(x)(exp(x)+ (2/x) + (2*cos(x))- 6)
+	float  xr, xa, ea;
+int iteraciones;
+
+ 
+iteraciones = 0;
+xa = 0.0;
+ea = 0;
+printf("%12s %10s %10s %10s %10s\n", "Iteraciones", "Xi", "Xo", "Xm", "Error a");
+ 
+do{
+iteraciones++;
+xr = (xi + xu) / 2;
+if(iteraciones >= 2) {
+ea = ((xr - xa) / xr) * 100; 
+}
+ea = fabs(ea); 
+printf("%12d %10f %10f %10f %10f\n", iteraciones, xi, xu, xr, fabs(ea));
+xa = xr;
+if(RAIZcuatro(xr) > 0) {
+xi = xr;
+} else{
+xu = xr;
+}
+ 
+} while(ea > 0.5 || (ea == 0.0 && iteraciones == 1));
+ 
+printf("\nLa raiz es de f(x) = e^x  + 2^-x + 2cosx -6; es: %f\n", xr);
+}
+
+int main(){
+	printf("Método de biseccion \n Escoge una opcion:\n");
+	printf("1) x^3 - x - 1 \n2)-2x^3 - 4x^2  + 4x  + 4\n");
+	printf("3) x-2^-x para 0<x<1 \n4)e^x  + 2^-x + 2cosx -6 para 1<x<2   ");
+	float xi, xo;
+	int opcion;
+	char c;
+	while(!(scanf("%i%c",&opcion,&c) == 2 && c=='\n') || (opcion <1 || opcion>4)){
+		printf("\n Ingresa opcion valida \n");
+		while(getchar() != '\n');
+	}
+	printf("\nIngresa el valor de xi: ");
+	while(!(scanf("%f%c",&xi,&c) == 2 && c=='\n')){
+		printf("\n Ingresa opcion valida \n");
+		while(getchar() != '\n');
+	}
+	printf("\nIngresa el valor de xo: ");
+	while(!(scanf("%f%c",&xo,&c) == 2 && c=='\n')){
+		printf("\n Ingresa opcion valida \n");
+		while(getchar() != '\n');
+	}
+	if(opcion==1){
+		uno(xi,xo);
+	}
+	if(opcion==2){
+		dos(xi,xo);
+	}
+	if(opcion==3){
+		tres(xi,xo);
+	}
+	if(opcion==4){
+		cuatro(xi,xo);
+	}
+}

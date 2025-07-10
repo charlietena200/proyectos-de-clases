@@ -1,0 +1,56 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=2cm,top=2cm,right=2cm,bottom=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+
+\newcommand{\mN}{{\mathbb N}}
+\newcommand{\mZ}{{\mathbb Z}}
+\newcommand{\cZ}{{\mathcal Z}}
+\newcommand{\fL}{{\mathfrak L}}
+\newcommand{\dst}{\displaystyle}
+
+%opening
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+Tarea: Regla de Simpson 1/3\\\\
+
+Grupo 2402\\\\
+INTEGRANTES:\\\\
+FRANCO LONA OSCAR\\\\
+PICHARDO RIVAS ALEXIS JAIR\\\\
+GALLEGOS TENA CARLOS ALBERTO\\\\
+\newpage
+2. Realiza los ejercicios que te presento a continuación.\\\\  
+
+Dada la siguiente integral\\\\
+$\int_{3}^{6} \frac{x}{4+x^2} dx$\\\\
+a) Encuentre su valor exacto, con el método analítico\\\\
+$\int_{3}^{6} \frac{x}{4+x^2} dx = \frac{ln(x^2 + 4)}{2} |_{3}^{6}$\\\\
+$=\frac{ln(6^2 + 4)}{2} - \frac{ln(3^2 + 4)}{2} = 1.84444 - 1.282474 = 0.561965$\\\\
+b) Encuentre su valor aproximado con N = 4, con Simpson $\frac{1}{3}$\\\\
+\begin{tabular}{| c | c |}
+\hline
+x & f(x)\\
+\hline
+a=3 & 0.230769\\
+x1=4 & 0.2\\
+x2=4.5 & 0.185567\\
+x3=5.5 & 0.160583\\
+b=6 & 0.15\\
+\hline
+\end{tabular}\\\\
+N=4\\\\
+h= $\frac{6-3}{4} = \frac{3}{4} = 0.75$\\\\
+A=$\frac{0.75}{3}[0.230769 + 0.15 + 2(0.185567) + 4(0.2+0.160583)]$\\\\
+$= 0.25[2.194235] = 0.548558$\\\\
+Por lo tanto, la aproximación por Simpson 1/3 de $\int_{3}^{6} \frac{x}{4+x^2} dx$ es 0.548558.\\\\
+
+\end{document}

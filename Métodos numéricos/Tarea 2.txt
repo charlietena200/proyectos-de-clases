@@ -1,0 +1,22 @@
+//Carlos Alberto Gallegos Tena   42009018
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    int k;
+    float uno=1;
+    float suma=0, diez=10;
+    int i=1;
+    do{
+        printf("Ingresa k: ");
+        scanf("%d",&k);
+    }while(k<1);
+    for( i=1; i<=k; i++){
+        suma+=(uno/i);
+    }
+    int z=3;
+    if(i>12500){
+        z=4;
+    }
+    printf("La suma es %.1f x 10 ^ -%d", suma*10,z);
+}
