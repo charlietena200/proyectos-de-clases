@@ -1,0 +1,61 @@
+F:\Archivos\4to Semestre\Programacion orientada a objetos\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+F:\Archivos\4to Semestre\Programacion orientada a objetos\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+F:\Archivos\4to Semestre\Programacion orientada a objetos\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+F:\Archivos\4to Semestre\Programacion orientada a objetos\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+F:\Archivos\4to Semestre\Programacion orientada a objetos\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+F:\Archivos\4to Semestre\Programacion orientada a objetos\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+F:\Archivos\4to Semestre\Programacion orientada a objetos\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\Carlos\Desktop\ProyectoBackupBDlista - copia\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\Carlos\Desktop\ProyectoBackupBDlista - copia\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\Carlos\Desktop\ProyectoBackupBDlista - copia\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\Carlos\Desktop\ProyectoBackupBDlista - copia\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\ProyectoBackupBDlista - copia\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\Carlos\Desktop\ProyectoBackupBDlista - copia\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\ProyectoBackupBDlista - copia\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\Carlos\Desktop\ProyectoBackupBDlista - copia\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\Carlos\Desktop\ProyectoBackupBDlista - copia\Proyecto\obj\Debug\Proyecto.Interfaz.resources
+C:\Users\Carlos\Desktop\ProyectoBackupBDlista - copia\Proyecto\bin\Debug\DatosGenerales.mdb
+C:\Users\carlo\Downloads\ProyectoFinalPOO\ProyectoFinalPOO\Proyecto\bin\Debug\DatosGenerales.mdb
+C:\Users\carlo\Downloads\ProyectoFinalPOO\ProyectoFinalPOO\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\carlo\Downloads\ProyectoFinalPOO\ProyectoFinalPOO\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\carlo\Downloads\ProyectoFinalPOO\ProyectoFinalPOO\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\carlo\Downloads\ProyectoFinalPOO\ProyectoFinalPOO\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\carlo\Downloads\ProyectoFinalPOO\ProyectoFinalPOO\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\carlo\Downloads\ProyectoFinalPOO\ProyectoFinalPOO\Proyecto\obj\Debug\Proyecto.Interfaz.resources
+C:\Users\carlo\Downloads\ProyectoFinalPOO\ProyectoFinalPOO\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\carlo\Downloads\ProyectoFinalPOO\ProyectoFinalPOO\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Downloads\ProyectoFinalPOO\ProyectoFinalPOO\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\carlo\Downloads\ProyectoFinalPOO\ProyectoFinalPOO\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\ProyectoFinalPOO\Proyecto\bin\Debug\DatosGenerales.mdb
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\ProyectoFinalPOO\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\ProyectoFinalPOO\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\ProyectoFinalPOO\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\ProyectoFinalPOO\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\ProyectoFinalPOO\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\ProyectoFinalPOO\Proyecto\obj\Debug\Proyecto.Interfaz.resources
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\ProyectoFinalPOO\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\ProyectoFinalPOO\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\ProyectoFinalPOO\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\ProyectoFinalPOO\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\ProyectoFinalPOO\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\Proyecto ingeniería\Proyecto\bin\Debug\DatosGenerales.mdb
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\Proyecto ingeniería\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\Proyecto ingeniería\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\Proyecto ingeniería\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.Interfaz.resources
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba 2\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba base\Prueba 3\Proyecto ingeniería\Proyecto\bin\Debug\DatosGenerales.mdb
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba base\Prueba 3\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba base\Prueba 3\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba base\Prueba 3\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.Interfaz.resources
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba base\Prueba 3\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba base\Prueba 3\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba base\Prueba 3\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba base\Prueba 3\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\carlo\Documents\Quinto semestre\Ing Software\programas\Prueba base\Prueba 3\Proyecto ingeniería\Proyecto\obj\Debug\Proyecto.pdb
